@@ -21,21 +21,29 @@ header{
     margin: auto;
 }
 .topico{
-    border: 3px solid black;
     display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    align-content: center;
+    border: 3px solid black;
+    box-shadow: 1px 10px 20px 1px;
     height: 20vh;
     width: 90%;
     margin: 30px auto;
     border-radius: 25px 0;
-    align-items:center;
-    justify-content: flex-start;
-    align-content: center;
 }
 .topico:hover{
-    background-color: aqua;
+    background-color: orangered;
     transition: 0.5s;
 }
 /**Body Configuration*/
+
+/**Configuration by tag`s name*/
+a{
+    text-decoration: none;
+    color: black;
+}
+/**Class`s topics configurations*/
 .topic_number, .topic_name{
     position: relative;
     font-family: 'Quicksand', sans-serif;

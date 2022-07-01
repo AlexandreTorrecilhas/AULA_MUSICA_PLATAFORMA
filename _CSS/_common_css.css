@@ -44,6 +44,7 @@ h1,h2 {
 nav a{
     font-family: 'Quicksand', sans-serif;
     font-size: 18pt;
+    font-weight: 800;
     padding: 6px;
     margin: 0px 5px;
     text-decoration: none;
