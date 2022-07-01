@@ -31,7 +31,6 @@ body{
 }
 /*Header Configurations*/
 hgroup {
-    position: relative; 
     height: 100vh;
     width: 100%;
     display: flex;
@@ -40,7 +39,7 @@ hgroup {
 }
 hgroup::before {    
       content: "";
-      background-image: url("C:/Users/Naja  Info/OneDrive/Área de Trabalho/PROJETO_AULA_MUSICA/_IMAGENS/imagem_fundo_tela_principal_inicio.jpg");
+      background-image: url("../_IMAGENS/imagem_fundo_tela_principal_inicio.jpg");
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -51,6 +50,7 @@ hgroup::before {
 }
 nav{
     position: fixed;
+    top: 0%;
     height: 50px;
     width: 100%;
     justify-content:space-between;
