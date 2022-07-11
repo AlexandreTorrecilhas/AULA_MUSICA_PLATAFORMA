@@ -34,25 +34,3 @@ hgroup::before {
       left: 0px;
       opacity: 0.90;
 }
-nav{
-    position: fixed;
-    top: 0%;
-    height: 50px;
-    width: 100%;
-    justify-content:space-between;
-    align-items:center;
-    background-color: rgba(117, 54, 6, 0.6);
-    box-shadow: 10px 3px 30px 10px;
-}
-nav a{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18pt;
-    padding: 6px;
-    margin: 0px 5px;
-    text-decoration: none;
-    color: black;
-}
-nav a:hover{
-    color: white;
-    transition: 0.2s;
-}
