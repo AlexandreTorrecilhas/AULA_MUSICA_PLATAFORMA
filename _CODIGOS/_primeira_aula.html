@@ -1,9 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-        <title></title>
+        <title>Primeira Aula</title>
+        <link rel="stylesheet" href="../_CSS/_common_css.css">
+        <link rel="stylesheet" href="../_CSS/_first_class.css">
+        <script src="../_JS/_first_class.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            window.onload = function setSlideValue(){
+                let slides = document.getElementsByClassName('mySlides');
+                slides[0].style.display = "flex";
+                slides[0].style.flexDirection = "Column";
+                slides[0].style.alignItems = "center";
+                slides[0].style.justifyContent = "space-around";
+                slides[0].style.height = "60vh";
+                slides[0].style.border = "1px solid red";
+            }
+        </script>
     </head>
     <body>
-        
+        <header class="container">
+            <hgroup class="container">
+                <h1>Aula de Música</h1>
+                <h2>Orquestra Ágape</h2>
+            </hgroup>
+            <nav class="container_row">
+                <a class="container_row" target="_self" href="../_CODIGOS/lista_aula.html">Aulas</a>
+                <a class="container_row" href="">Professores</a>
+                <a class="container_row" href="">Local</a>
+                <a class="container_row" href="">Matrícula</a>
+            </nav>
+        </header>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="slide_question">
+                    <h2>First Question</h2>
+                </div>
+                <div class="slide_question">
+                    <input type="radio" id="first_question_ex_1" name="firstquestion" value="1">
+                    <label for="first_question_ex_1">First Option</label>
+                </div>
+                <div class="slide_question">
+                    <input type="radio" id="first_question_ex_2" name="firstquestion" value="2">
+                    <label for="first_question_ex_2">Second Option</label>
+                </div>
+                <div class="slide_question">
+                    <input type="radio" id="first_question_ex_3" name="firstquestion" value="3">
+                    <label for="first_question_ex_3">Third Option</label>
+                </div>
+                <div class="slide_question">
+                    <input type="radio" id="first_question_ex_4" name="firstquestion" value='$'>
+                    <label for="first_question_ex_4">Forth Option</label>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="slide_question">
+                    <h2>Second Question</h2>
+                </div>
+                <div class="slide_question">
+                    <input type="radio" id="second_question_ex_1" name="firstquestion" value="1">
+                    <label for="second_question_ex_1">First Option</label>
+                </div>
+                <div class="slide_question">
+                    <input type="radio" id="second_question_ex_2" name="firstquestion" value="2">
+                    <label for="second_question_ex_2">Second Option</label>
+                </div>
+                <div class="slide_question">
+                    <input type="radio" id="second_question_ex_3" name="firstquestion" value="3">
+                    <label for="second_question_ex_3">Third Option</label>
+                </div>
+                <div class="slide_question">
+                    <input type="radio" id="second_question_ex_4" name="firstquestion" value="4">
+                    <label for="second_question_ex_4">Forth Option</label>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <button onclick="seeResult()">Verficar</button>
+
     </body>
 </html>
