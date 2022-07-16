@@ -34,7 +34,7 @@ header{
   .mySlides {
     display: none;
   }
- .slide_question{
+ .slide_question, .slide_title{
     border: 1px solid black;
     height: 10vh;
     width: 80%;
@@ -43,10 +43,10 @@ header{
     flex-direction: row;
     align-items: center;
  }
- .slide_question:first-child{
-    border: none;
+ .slide_title{
+  border: none;
  }
- .slide_question h2{
+ .slide_title h2{
     width: 100%;
     text-align: left;
  }
