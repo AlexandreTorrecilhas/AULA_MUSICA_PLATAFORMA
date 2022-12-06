@@ -2,21 +2,26 @@
 <html lang="pt-br">
     <head>
         <title></title>
-        <link rel="stylesheet" href="../_CSS/style.css">
+        <link rel="stylesheet" href="../_CSS/header.css">
+        <script src="../_JS/active-menu.js"></script>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
     <body>
-        <header class="container">
-            <hgroup class="container">
-                <h1>Aula de Música</h1>
-                <h2>Orquestra Ágape</h2>
-            </hgroup>
-            <nav class="container_row">
-                <a class="container_row" target="_self" href="../_CODIGOS/lista_aula.html">Aulas</a>
-                <a class="container_row" href="">Professores</a>
-                <a class="container_row" href="">Local</a>
-                <a class="container_row" href="">Matrícula</a>
-            </nav>
+        <header>
+            <div class="container">
+                <button class="btn-header-links" onclick="activeMenu()">Menu</button>
+                <nav id="header-links" class="header-links">
+                    <a href="">Aulas</a>
+                    <a href="">Professores</a>
+                    <a href="">Sobre nós</a>
+                    <a href="">Inscrição</a>
+                </nav>
+            </div>
         </header>
+        <hgroup id="header-title" class="header-title">
+            <h1>Aula de Música</h1>
+            <h2>Orquestra Ágape</h2>
+        </hgroup>
     </body>
 </html>
