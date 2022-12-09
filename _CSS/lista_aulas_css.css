@@ -4,21 +4,12 @@ body{
     margin: 0px;
     padding: 0px;
 }
-header{
-    width: 100%;
-    height: 80vh;
-    background-image: url("../_IMAGENS/imagem_fundo_tela_principal_inicio.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+main{
+    
 }
-#title_header{
-    position: relative;
-    top: 40%;
-    text-align: center;
-}
-#title_header h1,h2{
-    margin: auto;
+a{
+    text-decoration: none;
+    color: black;
 }
 .topico{
     display: flex;
@@ -36,24 +27,29 @@ header{
     background-color: orangered;
     transition: 0.5s;
 }
-/**Body Configuration*/
-
-/**Configuration by tag`s name*/
-a{
-    text-decoration: none;
-    color: black;
-}
-/**Class`s topics configurations*/
 .topic_number, .topic_name{
     position: relative;
     font-family: 'Quicksand', sans-serif;
     padding: 5px;
+    z-index: -1;
 }
 .topic_number{
     border-right: 2px solid black;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 80px;
+    z-index: -1;
 }
 .topic_name{
-    font-size: 50px;
+    font-size: 80px;
+}
+@media(max-width: 700px){
+    main{
+        margin-top: 50px;
+    }
+    .topic_number{
+        font-size: 50px;
+    }
+    .topico .topic_name{
+        font-size: 50px;
+    }
 }

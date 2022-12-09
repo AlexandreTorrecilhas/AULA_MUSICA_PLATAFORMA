@@ -5,52 +5,11 @@
 *{
     box-sizing: border-box;
 }
-/**Container configuration*/
-.container{
-    display: flex;
-    flex-direction: column;
-}
-.container_row{
-    display: flex;
-    flex-direction: row;
-}
-/**Header configuration*/
-h1,h2 {
-    position: relative;
-    color: black;
-    line-height: 0.9;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-  }
-  h1{
-    font-size: 72;
-    font-family: 'Fascinate Inline', cursive;
-  }
-  h2{
-      font-size: 50;
-      
-  }
-  /**Nav configurations*/
-  nav{
-    position: fixed;
-    top: 0%;
-    height: 50px;
-    width: 100%;
-    justify-content:space-between;
-    align-items:center;
-    background-color: rgba(117, 54, 6, 0.6);
-    box-shadow: 10px 3px 30px 10px;
-}
-nav a{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18pt;
-    font-weight: 800;
-    padding: 6px;
-    margin: 0px 5px;
-    text-decoration: none;
-    color: black;
-}
-nav a:hover{
-    color: white;
-    transition: 0.2s;
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../_IMAGENS/imagem-fundo-tela-principal-inicio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

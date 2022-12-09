@@ -6,28 +6,11 @@ body{
     margin: 0px;
     padding: 0px;
 }
-header{
-    width: 100%;
-    height: 80vh;
-    background-image: url("../_IMAGENS/imagem_fundo_tela_principal_inicio.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
-#title_header{
-    position: relative;
-    top: 40%;
-    text-align: center;
-}
-#title_header h1,h2{
-    margin: auto;
-}
 
 /* Slideshow container */
 .slideshow-container {
     border: 1px solid black;
     max-width: 1000px;
-    height: 60vh;
     position: relative;
     margin: auto;
   }
